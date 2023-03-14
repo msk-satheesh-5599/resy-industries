@@ -1,0 +1,157 @@
+<header class="sticky top-0 bg-hero z-[1001]">
+    <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-20 text-lg text-gray-700">
+        <div>
+            <a href="#" class="font-bold tracking-wider text-4xl">RESY</a>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class=" pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-white" routerLink="/home">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="text-gray-600 body-font h-full bg-hero">
+    <div class="container mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+        <div
+            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-6xl  text-3xl font-medium text-gray-900 font-cinzel">Resy Industries
+                <!-- <br class="lg:inline-block"> -->
+            </h1>
+            <span class="sm:text-3xl sm:-mt-2 tracking-widest mb-4 text-lg font-cinzel">Material Handaling
+                Services</span>
+            <p class="mb-8 leading-relaxed font-lato">
+                Whether it's a package at your doorstep, or a container that arrives on a foreign shore, or equipment
+                that reaches our armed forces at the border, the chances are that our forklifts played a role in moving
+                it there. At Godrej Material Handling, we build all kinds of forklifts. We build them strong. And we
+                build them to last.
+            </p>
+            <div class="flex justify-center">
+                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none 
+              hover:bg-indigo-600 rounded text-lg">Get Quote</button>
+            </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded-3xl" alt="hero" src="assets/images/hero.png">
+        </div>
+    </div>
+</section>
+
+<section class="text-gray-600 body-font">
+    <div class="flex justify-center w-full py-16">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
+            Material Handaling Solutions
+        </h1>
+    </div>
+
+    <div class="container my-12 mx-auto px-4 md:px-12">
+        <div class="flex flex-wrap max-lg:justify-center -mx-1 lg:-mx-4">
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a [routerLink]="'/materials'">
+                        <img alt="Placeholder" class="block h-80 w-full"
+                            src="assets/images/materials/diesel-forklift.jpg">
+                    </a>
+                    <header class="flex items-center justify-center leading-tight p-2 md:p-4 bg-black">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-white font-lato font-bold"
+                                [routerLink]="'/materials'">
+                                Diesel ForkLift
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-80 w-full"
+                            src="assets/images/materials/electric-forklift.webp">
+                    </a>
+                    <header class="flex items-center justify-center leading-tight p-2 md:p-4 bg-black">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-white font-lato font-bold" href="#">
+                                Electrical ForkLift
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-80 w-full" src="assets/images/materials/reach-truck.png">
+                    </a>
+                    <header class="flex items-center justify-center leading-tight p-2 md:p-4 bg-black">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-white font-lato font-bold" href="#">
+                                Reach Truck
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-80 w-full"
+                            src="assets/images/materials/electric-stacker.webp">
+                    </a>
+                    <header class="flex items-center justify-center leading-tight p-2 md:p-4 bg-black">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-white font-lato font-bold" href="#">
+                                Stacker
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-80 w-full"
+                            src="assets/images/materials/hand-trolley.webp">
+                    </a>
+                    <header class="flex items-center justify-center leading-tight p-2 md:p-4 bg-black">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-white font-lato font-bold" href="#">
+                                Hand Trolly
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-80 w-full"
+                            src="assets/images/materials/hydralic-service.jpg">
+                    </a>
+                    <header class="flex items-center justify-center leading-tight p-2 md:p-4 bg-black">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-white font-lato font-bold" href="#">
+                                Hydralic Service
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+
+        </div>
+    </div>
+
+</section>
